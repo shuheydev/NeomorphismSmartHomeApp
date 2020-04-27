@@ -42,6 +42,11 @@
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.657" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.1" />
-    <PackageReference Include="Xamarin.Forms.NeoControls" Version="1.0.0-pre" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Xamarin.Forms.NeoControls">
+      <HintPath>..\..\..\Xamarin.Forms.NeoControls\Xamarin.Forms.NeoControls\bin\Debug\netstandard2.0\Xamarin.Forms.NeoControls.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
